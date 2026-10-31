@@ -1,0 +1,6 @@
+{
+  "name": "Gol Ya Pooch 3D Master - گل یا پوچ آنلاین",
+  "description": "پلتفرم آنلاین و سه‌بعدی بازی حرفه‌ای گل یا پوچ؛ مودهای دونفره، چهارنفره، گروهی، استیک سکه، کارت‌های بلوف و فروشگاه اسکین‌های سه‌بعدی دست و گل.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

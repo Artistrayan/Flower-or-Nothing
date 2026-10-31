@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Cinzel:wght@600;700;800;900&display=swap');
+
+:root {
+  --font-vazir: 'Vazirmatn', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+}
+
+body {
+  font-family: var(--font-vazir);
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #07090e;
+  color: #f1f5f9;
+}
+
+.font-num {
+  font-feature-settings: "tnum";
+  font-variant-numeric: tabular-nums;
+}
+
+.cinzel {
+  font-family: var(--font-cinzel);
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(245, 158, 11, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(245, 158, 11, 0.6);
+}
+
+/* Luxury gold text gradient */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #FFF176 0%, #FFD700 35%, #F59E0B 70%, #B45309 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-silver-gradient {
+  background: linear-gradient(135deg, #FFFFFF 0%, #E2E8F0 50%, #94A3B8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-ruby-gradient {
+  background: linear-gradient(135deg, #FDA4AF 0%, #F43F5E 50%, #BE123C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.25), inset 0 0 15px -3px rgba(245, 158, 11, 0.15);
+}
+
+.cyan-border-glow {
+  box-shadow: 0 0 25px -5px rgba(6, 182, 212, 0.25), inset 0 0 15px -3px rgba(6, 182, 212, 0.15);
+}
+
